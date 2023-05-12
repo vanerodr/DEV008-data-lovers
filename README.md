@@ -589,9 +589,7 @@ Cuando ya estés lista para codear, te sugerimos empezar de esta manera:
 
 #### Organización del Trabajo
 
-* [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s).
-  Ojo que Cris no diferencia _Definición de terminado_ de _Criterios de
-  Aceptación_ y nosotros sí lo haremos. Más detalles en la guía.
+* [Historias de Usuario](https://www.youtube.com/watch?v=ky6wFiF5vMk&t=344s)
 * [Cómo dividir H.U.](https://www.youtube.com/watch?v=Ueq786iZ30I&t=341s)
 * [Guía para Data Lovers](https://docs.google.com/presentation/d/e/2PACX-1vQhx9D36NjpH-Daea-ITPUDUzNL8ZiNAprq_7b5PSUrfutk45tEtaOLz2lmd8f54_5jX1hypDM8f8SM/pub?start=false&loop=false&delayms=60000)
 
