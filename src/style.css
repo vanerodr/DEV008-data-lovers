@@ -1,0 +1,119 @@
+.body{
+  background-color: #454545;
+}
+element.style {
+  box-sizing: border-box;
+    padding-top: 1000px;
+}
+.header{
+background-color: black;
+width: 100%;
+}
+#welcome {
+flex: 1;
+background-color: #454545;
+width: 100%;
+height: 100%;
+}
+body {
+  background-color: #454545;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  margin: 0;
+  background-position: center;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+body.movies-background {
+  background-color: #454545;
+  background-size: cover;
+}
+#buttons-container {
+  top: 10px;
+  right: 10px;
+}
+#characters-button {
+  margin-left: 10px;
+  border: none;
+  background: none;
+  padding: 0; /* Eliminar espacio interno */
+  font-size: 20px;
+  color: #f5efef;
+}
+#movies-button {
+  cursor: pointer;
+  margin-left: 12px;
+  border: none;
+  background-color: red;
+  font-size: 20px;
+  color: #fffafa;
+}
+#ghiblipedia {
+  cursor: pointer;
+  left: 100%;
+   margin-left: 10px;
+  border: none;
+  background: none;
+  padding: 0;
+  /* Eliminar espacio interno */
+  font-size: 22px;
+  color: #da0707;
+}
+#buttons-welcome{
+  top: 10px;
+  left: 10px;
+}
+#films-container {
+background-color: #454545;
+}
+.film-container {
+  /*width: calc(15% - 15px); /*esto es de ir probando, porque aún no encuentro el tamaño ideal. 35 no. 25 no. 15? maybe, pero no quiero tantas imagenes.*/
+  height: 400px; /*Ajusta la altura fija según tus necesidades*/
+  /*width: 350px;*/
+  margin: 30px; /* Espacio entre las películas */
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+}
+.film-container img {
+  width: 280px; 
+  object-fit: cover;
+  object-position: center;
+  clear: both;
+  aspect-ratio: 137/193;
+  box-shadow: 7px -6px 15px black;
+}
+.film-container h3 {
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fbc6c6;
+}
+#filter-container {
+bottom: 10px;
+left: 40%;
+background-color: #454545;
+width: 100%;
+}
+
+#search-input {
+  bottom: 10px;
+  left: 40%;
+  background-color: #f3f1f1;
+  width: 100%;
+  margin: 0 auto;
+ }
+#filter-button, #search-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border: none;
+  background-color: #454545;
+  color: #fffafa;
+}

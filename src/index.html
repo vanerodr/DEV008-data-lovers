@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Ghiblipedia</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div id="root"></div>
+    <header class="header">
+      <div id="buttons-container">
+      <button id="movies-button">MOVIES</button>
+      <button id="characters-button">CHARACTERS</button>
+      </div>
+      <div id="buttons-welcome">
+      <button id="ghiblipedia">GHIBLIPEDIA</button>
+      </div>
+    </header>
+    <section id="welcome">
+    <h1>Studio Ghibli Movies</h1>
+    <p>Founded by the legendary anime filmmaker Hayao Miyazaki</p>
+    <p>Ghibli is renowned for its captivating cult animated films, as demonstrated by this collection.</p>
+    <p>If you prefer to see all the movies, select the 'Movies' button, or if you prefer to see all the characters, press the 'Characters' button.</p>
+      <p>To return to the main page, press the 'Ghiblipedia' button.</p>
+      </section>
+      <div id="search-container" style="display: none;">
+        <button id="search-button">If you know the name of the movie, you can search for it here, but be careful when typing the name</button>
+        <input type="text" id="search-input" placeholder="Search movie...">
+      </div>
+    <div id="filter-container" style="display: none;">
+     <button id="filter-button">Or would you prefer to sort all the movies?:</button>
+     <select id="sort-select">
+      <option selected disabled>Select Order</option>
+      <option value="asc">From A to Z</option>
+      <option value="desc">From Z to A</option>
+      <option value="yearAsc">Oldest</option>
+      <option value="yearDesc">Recently</option>
+     </select>
+    </div>
+    <div id="films-container" style="display:none"></div>
+    <script src="data.js" type="module"></script>
     <script src="main.js" type="module"></script>
   </body>
 </html>
